@@ -1,6 +1,11 @@
 class Vpn < Vagrant.plugin("2")
   name "VPN"
 
+  command "get-config" do
+    require_relative "commands"
+    GetConfig
+  end
+
   command "start-vpn" do
     require_relative "commands"
     StartVpn

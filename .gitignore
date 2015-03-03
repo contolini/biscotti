@@ -1,3 +1,4 @@
 .vagrant
 *.tblk
 auth.txt
+config.ovpn

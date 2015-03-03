@@ -13,10 +13,9 @@ You can connect to most things directly, while proxying only traffic that needs 
 You'll need to know your VPN name and password.
 
 ```
-git clone git@github.com:cndreisbach/tunnelblink.git
-cd tunnelblink
-cp -r ~/Library/Application\ Support/Tunnelblick/Configurations/*.tblk .
-mv *.tblk vpn.tblk
+git clone git@github.com:contolini/biscotti.git
+cd biscotti
+vagrant get-config
 vagrant up
 vagrant start-vpn
 ```
