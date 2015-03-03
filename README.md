@@ -1,8 +1,8 @@
-# Tunnelblink
+# Biscotti
 
 ## What is it?
 
-A Vagrant setup to connect you to a VPN without using Tunnelblick. It instead uses a virtual machine running a HTTP proxy.
+A Vagrant setup to connect you to a VPN without using Viscosity. It instead uses a virtual machine running a HTTP proxy.
 
 ## Why would you want to do this?
 
